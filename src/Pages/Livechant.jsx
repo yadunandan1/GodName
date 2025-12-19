@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 
-const GODS = ["radha", "krishna", "ram", "shiva", "hanuman", "hari"];
+const GODS = ["Shree radha", "Shree krishna", "Shree ram", "Shree shiva", "Shree hanuman", "Shree hari"];
 
 export default function LiveChant() {
   const wsRef = useRef(null);
@@ -215,7 +215,7 @@ export default function LiveChant() {
             <div className="text-5xl font-bold text-yellow-400">
               {progress}
             </div>
-            <div className="absolute text-[90px] opacity-10 text-yellow-500">
+            <div className="absolute text-[480px] opacity-10 text-yellow-500">
               ॐ
             </div>
             <div className="text-sm tracking-widest">/ 108</div>
