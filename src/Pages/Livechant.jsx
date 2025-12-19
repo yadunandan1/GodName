@@ -36,7 +36,7 @@ export default function LiveChant() {
   const startListening = async () => {
     if (connected) return;
 
-    const ws = new WebSocket("ws://127.0.0.1:8000/ws/audio");
+    const ws = new WebSocket("wss://godname-backend.onrender.com/ws/audio");
     ws.binaryType = "arraybuffer";
     wsRef.current = ws;
 
